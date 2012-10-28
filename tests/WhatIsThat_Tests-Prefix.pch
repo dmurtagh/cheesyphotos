@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'WhatIsThat_Tests' target in the 'WhatIsThat_Tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <objc/runtime.h>
+#endif
